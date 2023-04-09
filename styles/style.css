@@ -1,16 +1,19 @@
+@font-face {
+    font-family: Afta Sans;
+    src: url('../fonts/AftaSansThin-Regular.otf') format('opentype');
+}
+
 * {
     padding: 0;
     margin: 0;
     font-family: 'Arsenal', sans-serif;
-
 }
 
 
 /*element selector*/
 body {
     font-family: Arial, Helvetica, serif;
-    color:
-        #7c7878;
+    color: #7c7878;
     background-color: #f4f4f4;
 }
 
@@ -92,8 +95,6 @@ body {
     }
 }
 
-
-
 /* header styling */
 header {
     display: flex;
@@ -106,7 +107,6 @@ header {
     width: 100%;
     opacity: 0.9;
 }
-
 
 #contact-header {
     text-decoration: none;
@@ -122,9 +122,11 @@ header {
     margin: auto;
 }
 
+/* locally hosted font */
 h1 {
     color: #fff;
     font-size: 2.5em;
+    font-family: 'Afta Sans', sans-serif;
 }
 
 
@@ -173,12 +175,15 @@ main {
     margin: 0 auto;
 }
 
+/* externally hosted font */
+
 #first-p {
     width: 50vw;
     line-height: 1.7em;
     font-size: 1.5em;
     margin-top: 2em;
     letter-spacing: 0.05em;
+    font-family: 'Schibsted Grotesk', sans-serif;
 }
 
 
@@ -502,6 +507,7 @@ h2#skills-h2 {
     h1 {
         color: #fff;
         font-size: 2.5em;
+        font-family: 'Afta Sans', sans-serif;
     }
 
 
@@ -556,6 +562,7 @@ h2#skills-h2 {
         font-size: 1.2em;
         margin-top: 2em;
         letter-spacing: 0.05em;
+        font-family: 'Schibsted Grotesk', sans-serif;
     }
 
 
@@ -874,6 +881,7 @@ h2#skills-h2 {
     h1 {
         color: #fff;
         font-size: 2.5em;
+        font-family: 'Afta Sans', sans-serif;
     }
 
 
@@ -928,6 +936,7 @@ h2#skills-h2 {
         font-size: 1.05em;
         margin-top: 2em;
         letter-spacing: 0.05em;
+        font-family: 'Schibsted Grotesk', sans-serif;
     }
 
 
@@ -1237,6 +1246,7 @@ h2#skills-h2 {
     h1 {
         color: #fff;
         font-size: 2.5em;
+        font-family: 'Afta Sans', sans-serif;
     }
 
 
@@ -1291,6 +1301,7 @@ h2#skills-h2 {
         font-size: 1.05em;
         margin-top: 2em;
         letter-spacing: 0.05em;
+        font-family: 'Schibsted Grotesk', sans-serif;
     }
 
 
